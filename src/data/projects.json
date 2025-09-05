@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "title": "FAME",
+    "description": "I tamed and modernized an unweildy Wordpress site to set my clients up for success as their platform and userbase continue to grow.",
+    "image": "fame.png"
+  },
+  {
+    "id": 2,
+    "title": "TheraQin Movement Clinic",
+    "description": "When this small business's website was flying under the radar, I did an SEO overhaul to get this clinic the attention it deserves.",
+    "image": "theraqin.png"
+  },
+  {
+    "id": 3,
+    "title": "Surrey Cats",
+    "description": "This nonprofit was struggling to keep up with applicants until I wrote an automation program to make sure they can keep offering help where it's needed.",
+    "image": "surrey.png"
+  },
+  {
+    "id": 4,
+    "title": "ClothesLine",
+    "description": "I built this application for fun as a way to promote sustainable fashion practices. Built with React, Node.js, MySQL, and Express.",
+    "image": "clothesline.png"
+  }
+]

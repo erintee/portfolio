@@ -1,0 +1,66 @@
+[
+    {
+      "id": 1,
+      "title": "FAME",
+      "description": [
+        "When this organization’s WordPress site started as a small project, it worked well enough. But as their platform and user base grew, so did their challenges. The site had been built page by page over time, leading to a cluttered and unintuitive navigation system. Users struggled to find key information, and managing updates became increasingly frustrating due to an overload of unused plugins, media, and outdated design choices.",
+        "I tackled this problem by giving the site a complete redesign—improving both its visual appeal and usability. I restructured the navigation with clear menu items and logical page linking, making it much easier for visitors to find what they need. To reduce the client’s reliance on manually updating WordPress pages, I built a centralized database where they could manage key program details. This database now powers the website, ensuring that updates are reflected dynamically without the need to edit WordPress directly.",
+        "I also automated a key administrative task: creating and uploading program flyers. Instead of manually designing PDFs and navigating WordPress to upload them, staff can now generate updated flyers and send them to the website—all from within their database. This seamless process saves time and ensures that program materials are always up to date.",
+        "To ensure my clients could confidently manage their new system, I provided clear documentation on how to use WordPress effectively, update database-driven content, and generate flyers effortlessly. Now, as their platform continues to grow, they have a structured, scalable system that’s easy to maintain."
+      ],
+      "results": [],
+      "conclusion": "With these improvements, the organization now has a streamlined, scalable system that enhances both user experience and internal efficiency. By reducing manual updates and automating key tasks, their team can focus on what matters most—researching and delivering their programs—while ensuring their website stays up to date and accessible.",
+      "images": ["fame1.png", "fame2.png"]
+    },
+    {
+      "id": 2,
+      "title": "TheraQin Movement Clinic",
+      "description": [
+        "When this small business wanted to improve its online presence, I stepped in to ensure their website was reaching the right audience. While the site provided valuable content, it wasn’t fully optimized for search engines, making it harder for potential clients to discover their services. Key elements like metadata, internal links, and keyword usage were underutilized, and the site wasn’t indexed with Google, meaning it wasn’t appearing in search results. To address this, I implemented a structured SEO strategy.",
+        "I registered the site with Google Search Console and ensured all pages were properly indexed. I optimized metadata, incorporated targeted keywords, and added internal links to improve navigation and search rankings. To enhance local visibility, I integrated location data and Google reviews, making it easier for nearby clients to find the clinic. I also introduced more calls to action (CTAs) throughout the site to encourage user engagement.","The impact was clear within a year:"
+      ],
+      "results":[
+        "Total impressions increased by over 3,000%, significantly boosting visibility in search results.", "Click-through rate saw a notable improvement, indicating better engagement with search listings.", 
+        "The website saw its first clicks from organic search and continued to grow steadily, showing a significant increase in visibility and engagement."
+      ],
+      "conclusion": "With these improvements, Theraqin can continue to grow with the confidence that their business is becoming more and more visible to the clients who need it most.",
+      "images": [
+        "theraqin.png"
+        ]
+    },
+    {
+      "id": 3,
+      "title": "Surrey Community Cat Coalition",
+      "description": [
+        "The Surrey Community Cat Coalition, a local non-profit, was facing an overwhelming backlog of applications, forcing them to temporarily pause their program. Their intake process required manually entering data, tracking applications and results, and coordinating emails between patients and veterinarians. As application volume grew, keeping up became unsustainable, and they weren’t sure what kind of solution could help.",
+        "After speaking with the team and gaining a deep understanding of their workflow, I designed an automation system tailored to their needs. By linking their Google Forms to a database, I created a system that automatically formatted application data into an editable structure, generated intake forms with a single click, and sent confirmation emails to both patients and veterinarians. The system also logged email timestamps and linked generated documents, making it easy to track applications at every stage.",
+        "With the new system in place:"
+      ],
+      "results":[
+        "Time spent on intake processing was reduced from hours to minutes",
+        "The community program was relaunched and able to accept hundreds of new applications from those in need",
+        "The documentation and training that I provided empowered the team to move forward using the new tools confidently"
+      ],
+      "conclusion": "With these improvements, Surrey Cats regained control over their intake process, ensuring they could continue offering vital services without being overwhelmed by administrative tasks.",
+      "images": ["surrey.png"]
+    },
+    {
+      "id": 4,
+      "title": "ClothesLine",
+      "description": [
+        "ClothesLine is a social platform designed to bring fashion enthusiasts together, allowing users to share their outfits, browse styles, and connect with others through a visually engaging and interactive interface. The project was developed as a capstone, with the goal of building a functional, full-stack application within a short timeframe.",
+        "Over the course of a week, I engineered both the front and back end of the application, ensuring a seamless user experience. The front end was built using React for a responsive and modern design, while the back end was powered by Node.js and Express, with a MySQL database handling user data and interactions. The platform features a REST API to manage user authentication, posts, and interactions efficiently.",
+        "To enhance the app’s usability, I focused on creating a structured component-based design, ensuring that key elements like image uploads, user profiles, and post feeds were intuitive and performant. By implementing authentication, users could securely log in, create profiles, and share their looks with the community."
+      ],
+      "results": [
+        "Full-stack development with a React front end and Node.js/Express back end.",
+        "MySQL database integration to store user data, posts, and interactions.",
+        "User authentication system for secure sign-in and profile management.",
+        "REST API to handle dynamic content and interactions efficiently.",
+        "Mobile-first, responsive design for a smooth experience across devices."
+      ],
+      "conclusion": "ClothesLine was a fast-paced development challenge that allowed me to design and implement a full-stack application from the ground up resulting in an interactive platform that combines modern web technologies with a sleek user experience. And most of all - it was a lot of fun to build!",
+      "images": ["clothesline1.png", "clothesline2.png", "clothesline3.png", "clothesline4.png"]
+    }
+  ]
+  
