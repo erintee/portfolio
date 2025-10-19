@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Quattrocento+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -62,6 +64,14 @@
     --chart-3: 210 40% 96.1%;
     --chart-4: 212.7 26.8% 83.9%;
     --chart-5: 220 100% 50%;
+  }
+
+  h1, h2, h3, h4, h5, h6, nav span, nav li, button, label {
+    @apply font-display;
+  }
+
+  p, li {
+    @apply font-body;
   }
 }
 

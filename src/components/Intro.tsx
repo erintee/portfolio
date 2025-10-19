@@ -11,7 +11,7 @@ const Intro = () => {
             className="text-justify md:text-right text-lg md:text-xl md:w-[70%] md:max-w-[545px] lg:w-[60%]"
             aria-label="Introductory message"
           >
-            I'm here to refine your online presence by building intuitive, natural platforms that
+            Refine your online presence with intuitive, natural platforms that
             users will love to visit. <br />
           </p>
           <p

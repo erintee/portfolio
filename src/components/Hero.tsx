@@ -36,9 +36,9 @@ const Hero = () => {
 
   return (
     <div className="flex flex-col items-center">
-      <div className="relative bg-[url(@/assets/hero2.jpg)] bg-cover bg-center w-full h-[85vh] flex justify-center items-end">
+      <div className="relative bg-[url(@/assets/hero2.jpg)] bg-cover bg-center w-full h-[88vh] flex justify-center items-end">
         <div className="absolute custom-container">
-          <div className="content text-background text-4xl lg:text-6xl font-bold">
+          <div className="content text-background text-4xl font-display lg:text-6xl font-bold">
             Turn your ideas into
           </div>
         </div>
@@ -47,7 +47,7 @@ const Hero = () => {
       <div className="custom-container">
         {animationsEnabled ? (
           <ReactTyped
-            className="content text-4xl lg:text-6xl font-black text-right"
+            className="content text-4xl lg:text-6xl font-display font-black text-right"
             strings={strings}
             typeSpeed={100}
             backSpeed={20}

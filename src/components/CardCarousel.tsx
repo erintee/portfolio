@@ -131,7 +131,7 @@ const CardCarousel = () => {
           <button
             aria-label="Previous item"
             onClick={prevItem}
-            className={`absolute left-1 z-20 bg-yellow rounded-full p-2 focus:outline-black ${
+            className={`absolute left-1 z-10 bg-yellow rounded-full p-2 focus:outline-black ${
               currentIndex === 0 ? "opacity-30 cursor-not-allowed" : "bg-opacity-30"
             }`}
             disabled={currentIndex === 0}
@@ -142,7 +142,7 @@ const CardCarousel = () => {
           <button
             aria-label="Next item"
             onClick={nextItem}
-            className="absolute right-1 z-20 bg-yellow bg-opacity-50 rounded-full p-2 focus:outline-black"
+            className="absolute right-1 z-10 bg-yellow bg-opacity-50 rounded-full p-2 focus:outline-black"
           >
             <ChevronRight className="text-white w-6 h-6" />
           </button>

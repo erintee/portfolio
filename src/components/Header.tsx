@@ -30,28 +30,53 @@ const Header = () => {
   };
 
   return (
-    <header className="bg-background w-full fixed  flex justify-center z-20 custom-container" aria-label="Main header">
-      <nav className="flex justify-between align-bottom content" role="navigation">
+    <header
+      className="bg-background w-full fixed  flex justify-center z-20 custom-container"
+      aria-label="Main header"
+    >
+      <nav
+        className="flex justify-between align-bottom content"
+        role="navigation"
+      >
         <span
           className="font-bold text-5xl cursor-pointer focus: outline-mauve"
-          onClick={() => window.scrollTo({ top: 0, left: 0, behavior: "smooth" })}
+          onClick={() =>
+            window.scrollTo({ top: 0, left: 0, behavior: "smooth" })
+          }
           tabIndex={0}
           aria-label="Go to top of page"
-          onKeyDown={(e) => handleKeyDown(e, () => window.scrollTo({ top: 0, left: 0, behavior: "smooth" }))}
+          onKeyDown={(e) =>
+            handleKeyDown(e, () =>
+              window.scrollTo({ top: 0, left: 0, behavior: "smooth" })
+            )
+          }
         >
           Erin T.
         </span>
         <ul className="flex gap-4 self-end">
-          <li 
+          <li
             className="font-semibold text-xl cursor-pointer hover:text-mauve focus: outline-mauve"
             onClick={() => scrollToElement("projects")}
             tabIndex={0}
             aria-label="Navigate to Projects section"
-            onKeyDown={(e) => handleKeyDown(e, () => scrollToElement("projects"))}
+            onKeyDown={(e) =>
+              handleKeyDown(e, () => scrollToElement("projects"))
+            }
           >
             projects
           </li>
-          <li 
+          <li
+            className="font-semibold text-xl cursor-pointer hover:text-mauve focus: outline-mauve"
+            onClick={() => scrollToElement("about")}
+            tabIndex={0}
+            aria-label="Navigate to Projects section"
+            onKeyDown={(e) =>
+              handleKeyDown(e, () => scrollToElement("projects"))
+            }
+          >
+            about
+          </li>
+          <li
             className="font-semibold text-xl cursor-pointer hover:text-mauve focus: outline-mauve"
             onClick={() => setOpen(true)}
             tabIndex={0}

@@ -4,6 +4,7 @@ export interface Project {
     description: string[];
     results: string[] | undefined;
     conclusion: string;
+    mainImage: string;
     images: string[];
   }
 
