@@ -8,6 +8,7 @@ import Projects from './components/Projects';
 import ContactDialog from './components/dialogs/ContactDialog';
 import ProjectDialog from './components/dialogs/ProjectDialog';
 import About from './components/About';
+import Footer from './components/Footer';
 
 function App() {
 
@@ -23,6 +24,7 @@ function App() {
         <ProjectDialog />
         <About />
       </main>
+      <Footer />
       </ProjectDialogProvider>
     </DialogProvider>
   )
